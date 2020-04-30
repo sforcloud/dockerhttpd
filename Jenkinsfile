@@ -1,7 +1,9 @@
 pipeline {
 
    // Agent : Where You want yor code to be executed 
-   agent any
+  gent {
+  label 'docker'
+	}
 
    stages {
     // stage define the steps such as checkout,commit,build and deploy
