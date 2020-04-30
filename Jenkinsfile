@@ -1,7 +1,7 @@
 pipeline {
 
    // Agent : Where You want yor code to be executed 
-  gent {
+  agent {
   label 'docker'
 	}
 
