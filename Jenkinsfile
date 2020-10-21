@@ -2,7 +2,7 @@ pipeline {
 
    // Agent : Where You want yor code to be executed 
   agent {
-  label 'docker'
+  label 'any'
 	}
 
    stages {
