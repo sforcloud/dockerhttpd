@@ -1,9 +1,7 @@
 pipeline {
 
    // Agent : Where You want yor code to be executed 
-  agent {
-  label 'any'
-	}
+  agent any
 
    stages {
     // stage define the steps such as checkout,commit,build and deploy
